@@ -23,5 +23,14 @@
         <servlet-name>Task2Servlet</servlet-name>
         <url-pattern>/Task2</url-pattern>
     </servlet-mapping>  
+
+    <servlet>
+        <servlet-name>Task3Servlet</servlet-name>
+        <servlet-class>servlet.Task3Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Task3Servlet</servlet-name>
+        <url-pattern>/Task3</url-pattern>
+    </servlet-mapping>
 </web-app>
 

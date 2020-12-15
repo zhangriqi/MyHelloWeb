@@ -26,6 +26,19 @@ public class Task1Servlet extends GenericServlet{
         pwriter.print("Develop an algorithm that finds the most frequent integer in an integer array. Show how you solve problems.");
         pwriter.print("<h2>Solution</h2>");
         pwriter.print("Approach1:....");
+        pwriter.print("</br>");
+        pwriter.print("<textarea id=\"w3review\" name=\"w3review\" rows=\"4\" cols=\"50\">");
+        pwriter.print("Use a hashmap as counter to store the frequencies of integers in the array. "
+                + "Iterate the entries and return the key of the entry with greatest value.");
+        pwriter.print("</textarea>");
+
+        pwriter.print("Approach2:....");
+        pwriter.print("</br>");
+        pwriter.print("<textarea id=\"w3review\" name=\"w3review\" rows=\"4\" cols=\"50\">");
+        pwriter.print("Use a hashmap as counter to store the frequencies of integers in the array. "
+                + "Sort the map entries based on its value in descending order.");
+        pwriter.print("</textarea>");
+
         pwriter.print("</body>");
         pwriter.print("</html>");
     }
