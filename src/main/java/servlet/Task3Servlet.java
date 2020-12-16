@@ -25,7 +25,7 @@ public class Task3Servlet extends GenericServlet {
         pwriter.print("<h2>Description</h2>");
         pwriter.print("Develop an algorithm to reverse a string both iteratively and recursively. Additional credits for unit testing the code.");
         pwriter.print("<h2>Solution</h2>");
-        pwriter.print("Github URL: https://github.com/zhangriqi/MyHelloWeb");
+        pwriter.print("<a href=\"https://github.com/zhangriqi/MyHelloWeb/\">Visit Github project!</a>");
         pwriter.print("</body>");
         pwriter.print("</html>");
     }
